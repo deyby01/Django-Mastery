@@ -1,0 +1,78 @@
+/* Estilo para toda la pagina*/
+body {
+    font-family: Arial, sans-serif;/* Tipo de letra */
+    background-color: #f4f4f4;/* Un color de fondo gris claro*/
+    color: #333;/* Color de texto principal oscuro */
+    margin: 20px;/* Margen en todos los lados */
+}
+
+/* Estilo para el encabezado */
+header {
+    background-color: #9ebfe4;/* Fondo azul */
+    color: white;/* Texto blanco */
+    padding: 10px;/* Espacio interior */
+    border-radius: 5px;/* Bordes redondeados */
+}
+
+/* Estilo para todas las secciones */
+section {
+    background-color: white;
+    margin-top: 20px;/* Margen solo en la parte superior*/
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Estilos para los titulos */
+h1, h2 {
+    color: #0056b3;/* Un azul un poco mas oscuro */
+}
+
+/* Estilo para los botones */
+button {
+    background-color: #28a745; /* Fondo Verde */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;/* Cambia el cursor a una manito */
+}
+
+/* Estilo para el boton cuando pasas el mouse por encima */
+button:hover {
+    background-color: #218838;/* Un verde mas oscuro */
+}
+
+/* Estilos de navegacion con flexbox */
+nav {
+    background-color: #333;/* Fondo oscuro para el menú */
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+nav ul {
+    list-style-type: none;/* Quitamos las viñetas de la lista */
+    padding: 0;
+    margin: 0;
+
+    /* Aqui empieza la magia de flexbox */
+    display: flex;
+    justify-content: center;/* Centramos los elementos horizontalmente */
+}
+
+nav ul li a {
+    color: white;/* Texto blanco */
+    text-decoration: none; /* Quitamos el subrayado de los enlaces */
+    padding: 10px 15px;/* Espaciado para hacerlos mas grandes */
+}
+
+nav ul li a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+.container {
+    max-width: 900px; /* Ancho maximo para el contenido */
+    margin: 0 auto; /* Truco clasico para centrar un bloque */
+}
