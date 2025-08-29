@@ -1,3 +1,6 @@
+# IMPORTANTE: Este archivo va vinculado con el dia 2.
+
+
 # 1. Pedimos el nombre al usuario y lo guardamos en una variable.
 nombre_usuario = input("Por favor, introduce tu nombre: ")
 
